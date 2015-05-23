@@ -1,0 +1,236 @@
+@media screen and (max-width: 1400px) {
+	.serv-prev {
+		left: 0;
+	}
+	.serv-next {
+		right: 0;
+	}
+}
+
+@media all and (max-width: 1200px) {
+	.container,
+	.center-wrap {
+		padding: 0 50px;
+	}
+	.main-nav a {
+		padding: 25px 10px;
+	}	
+	.services-carousel {
+		max-width: 870px;
+		margin: 82px auto 0 auto;
+	}
+	.serv-prev {
+		left: 30px;
+	}
+	.serv-next {
+		right: 30px;
+	}
+	.team-list,
+	.blog-posts {
+		max-width: 870px;
+		margin: 55px auto 0 auto;
+	}
+	.one-third {
+		width: 270px;
+	}
+	.clients-carousel {
+		max-width: 724px;
+	}
+	.social,
+	.subscribe-form {
+		float: none;
+		margin: 50px auto 0 auto;
+	}
+	.contact-info {
+		margin-top: 60px;
+	}
+	.address {
+		float: none;
+		width: 100%;
+	}
+	.address p {
+		text-align: center;
+	}
+	.contact-form {
+		float: none;
+		width: 100%;
+		margin-top: 40px;
+	}
+}
+
+@media all and (max-width: 1023px) {
+	.services-carousel {
+		max-width: 570px;
+	}
+	.one-third {
+		float: none;
+		width: 100%;
+		margin-top: 50px;
+		margin-left: 0;
+	}
+	.team-list,
+	.blog-posts {
+		margin: 0;
+	}
+	.img-meta {
+		width: 45%;
+		float: left;
+	}
+	.post-info {
+		width: 50%;
+		float: right;
+		margin-top: 0;
+	}
+	.post-info h3 {
+		min-height: 0;
+	}
+}
+
+@media all and (max-width: 960px) {
+	.header h1 {
+		margin-top: 50px;
+	}
+	.main-nav {
+		display: none;
+	}
+	.clients-carousel {
+		max-width: 478px;
+	}
+	.scroll-down {
+		bottom: 40px;
+	}
+}
+
+@media all and (max-height: 440px) {
+	.center-wrap {
+		max-width: 300px;
+		max-height: 50%;
+	}
+}
+
+@media all and (max-width: 767px) {
+	.container,
+	.center-wrap {
+		padding: 0 35px;
+	}	
+	.scroll-down {
+		bottom: 15px;
+	}
+	.header h1 {
+		margin-top: 35px;
+	}
+	.services-carousel {
+		max-width: 270px;
+	}
+	.today,
+	.clients {
+		height: auto;
+	}
+	.today .container {
+		padding-bottom: 25px;
+	}
+	.clients-carousel {
+		margin-top: 25px;
+	}
+	.clients-carousel {
+		max-width: 232px;
+	}
+	.filter {
+		float: none;
+		width: 100%;
+		margin: 15px 0 0 0;
+	}
+	.filter:first-child {
+		width: 100%;
+		margin: 0;
+	}
+	.filter-container {
+		height: auto;
+	}
+	.filter-elem {
+		position: relative;
+		left: 0 !important;
+		top: 0 !important;
+		width: 100%;
+	}
+	.img-meta {
+		width: 100%;
+		float: none;
+	}
+	.post-info {
+		width: 100%;
+		float: none;
+	}
+	.img-meta .meta {
+		margin-top: 15px;
+	}
+	.post-info h3 {
+		margin-top: 20px;
+	}
+	.social,
+	.subscribe-form {
+		float: none;
+		margin: 30px auto 0 auto;
+	}
+	.update {
+		padding-bottom: 25px;
+	}
+	.contact-row input {
+		width: 100%;
+	}
+	.contact-form button {
+		float: none;
+		width: 100%;
+	}
+	.contact-row label {
+		font-size: 20px;
+		margin-left: 10px;
+	}
+
+}
+
+@media all and (max-width: 640px) {
+	.social {
+		width: 100%;
+		height: auto;
+	}
+	.social a {
+		float: none;
+		display: inline-block;
+		margin-left: 0;
+	}
+	.subscribe-form {
+		width: 100%;
+	}
+ 	.subscribe-form input {
+		float: none;
+		width: 100%;
+		padding: 0 10px;
+	}
+	.subscribe-form button {
+		float: none;
+		width: 100%;
+		margin-top: 20px;
+	}
+}
+
+@media all and (max-width: 414px) {
+	.container, .center-wrap {
+		padding: 0 15px;
+	}
+	.center-wrap {
+		max-height: 50%;
+	}
+	.header h1 {
+		margin-top: 25px;
+	}
+	.services-carousel {
+		margin: 40px auto 0 auto;
+	}
+	.serv-prev {
+		left: 0;
+	}
+	.serv-next {
+		right: 0;
+	}	
+}
